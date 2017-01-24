@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		58324AB91E364DA30084CA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58324AB81E364DA30084CA29 /* AppDelegate.swift */; };
-		58324ABB1E364DA30084CA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58324ABA1E364DA30084CA29 /* ViewController.swift */; };
+		58324ABB1E364DA30084CA29 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58324ABA1E364DA30084CA29 /* WeatherVC.swift */; };
 		58324ABE1E364DA30084CA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58324ABC1E364DA30084CA29 /* Main.storyboard */; };
 		58324AC01E364DA30084CA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58324ABF1E364DA30084CA29 /* Assets.xcassets */; };
 		58324AC31E364DA30084CA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58324AC11E364DA30084CA29 /* LaunchScreen.storyboard */; };
+		B5F7451F06282860F3EACEDE /* Pods_HavaDurumu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5016E4807C2D68E5563A1CDF /* Pods_HavaDurumu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5016E4807C2D68E5563A1CDF /* Pods_HavaDurumu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavaDurumu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58324AB51E364DA30084CA29 /* HavaDurumu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavaDurumu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58324AB81E364DA30084CA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58324ABA1E364DA30084CA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58324ABA1E364DA30084CA29 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		58324ABD1E364DA30084CA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58324ABF1E364DA30084CA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58324AC21E364DA30084CA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58324AC41E364DA30084CA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB711E614D36549390ED7F1 /* Pods-HavaDurumu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavaDurumu.release.xcconfig"; path = "Pods/Target Support Files/Pods-HavaDurumu/Pods-HavaDurumu.release.xcconfig"; sourceTree = "<group>"; };
+		BE12D045107324C86A727833 /* Pods-HavaDurumu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavaDurumu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HavaDurumu/Pods-HavaDurumu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F7451F06282860F3EACEDE /* Pods_HavaDurumu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B5692F5D91B4A14D405E1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5016E4807C2D68E5563A1CDF /* Pods_HavaDurumu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58324AAC1E364DA30084CA29 = {
 			isa = PBXGroup;
 			children = (
 				58324AB71E364DA30084CA29 /* HavaDurumu */,
 				58324AB61E364DA30084CA29 /* Products */,
+				6F65F96B4C41D2DA49E7A276 /* Pods */,
+				51B5692F5D91B4A14D405E1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,22 @@
 			isa = PBXGroup;
 			children = (
 				58324AB81E364DA30084CA29 /* AppDelegate.swift */,
-				58324ABA1E364DA30084CA29 /* ViewController.swift */,
+				58324ABA1E364DA30084CA29 /* WeatherVC.swift */,
 				58324ABC1E364DA30084CA29 /* Main.storyboard */,
 				58324ABF1E364DA30084CA29 /* Assets.xcassets */,
 				58324AC11E364DA30084CA29 /* LaunchScreen.storyboard */,
 				58324AC41E364DA30084CA29 /* Info.plist */,
 			);
 			path = HavaDurumu;
+			sourceTree = "<group>";
+		};
+		6F65F96B4C41D2DA49E7A276 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE12D045107324C86A727833 /* Pods-HavaDurumu.debug.xcconfig */,
+				9CB711E614D36549390ED7F1 /* Pods-HavaDurumu.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58324AC71E364DA30084CA29 /* Build configuration list for PBXNativeTarget "HavaDurumu" */;
 			buildPhases = (
+				0CB7BBF8995C9CAD055FBDEA /* [CP] Check Pods Manifest.lock */,
 				58324AB11E364DA30084CA29 /* Sources */,
 				58324AB21E364DA30084CA29 /* Frameworks */,
 				58324AB31E364DA30084CA29 /* Resources */,
+				2B2F7A09C7BA67503A913F18 /* [CP] Embed Pods Frameworks */,
+				8BE3B99D259A7D6BB53206D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +159,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CB7BBF8995C9CAD055FBDEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B2F7A09C7BA67503A913F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavaDurumu/Pods-HavaDurumu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE3B99D259A7D6BB53206D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavaDurumu/Pods-HavaDurumu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58324AB11E364DA30084CA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58324ABB1E364DA30084CA29 /* ViewController.swift in Sources */,
+				58324ABB1E364DA30084CA29 /* WeatherVC.swift in Sources */,
 				58324AB91E364DA30084CA29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +332,7 @@
 		};
 		58324AC81E364DA30084CA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE12D045107324C86A727833 /* Pods-HavaDurumu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D27MD83NZD;
@@ -270,6 +346,7 @@
 		};
 		58324AC91E364DA30084CA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB711E614D36549390ED7F1 /* Pods-HavaDurumu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D27MD83NZD;
@@ -300,6 +377,7 @@
 				58324AC91E364DA30084CA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
